@@ -1,0 +1,17 @@
+{
+  "name": "meet-music-bot",
+  "version": "1.0.0",
+  "description": "A bot to play music in google meets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Basil",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "puppeteer": "^5.4.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-stealth": "^2.6.2"
+  }
+}

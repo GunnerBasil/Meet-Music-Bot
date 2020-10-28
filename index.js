@@ -24,7 +24,7 @@ console.log(chalk.blue(banner));
 // id regex:
 // ((\w|\d){3}-){2}(\w|\d){4}\s
 
-/*utils.ask('Meet ID: ', resp => {
+utils.ask('Meet ID: ', resp => {
     var meet = 'https://meet.google.com/' + resp;
     (async () => {
         console.log('Starting puppeteer...');
@@ -132,4 +132,4 @@ console.log(chalk.blue(banner));
         
         // await browser.close();
     })();
-});*/
+});

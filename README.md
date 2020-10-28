@@ -1,6 +1,7 @@
 # Meet Music Bot
 
 ![Logo](src/img/logo-smol.png)
+
 This is a wip bot for Google Meet. Eventually, it *should* be able to actually have the functionality to play songs and things of that nature, but as of writing, the only functionality that has been added is joining the Meet.
 
 ## How to use

@@ -6,7 +6,7 @@ const utils = require('./utils');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 puppeteer.use(StealthPlugin());
 
-var contents = fs.readFileSync("../creds.json");
+var contents = fs.readFileSync("creds.json");
 // Define to JSON type
 var jsonContent = JSON.parse(contents);
 
